@@ -1,5 +1,11 @@
+import listsExamples.ArrayListExample;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        ArrayListExample arrayListExample = new ArrayListExample();
+        System.out.println("===== Examples with array List =====");
+        arrayListExample.firstExampleStringItems();
+
+        arrayListExample.secondExampleWithObject();
     }
 }
