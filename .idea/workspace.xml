@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfedb961-03c3-4a49-b22e-5909821fa2f9" name="Changes" comment="Collections - Linked lists">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queueExample/DequeueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queueExample/QueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/setExamples/SetExample.java" afterDir="false" />
+    <list default="true" id="dfedb961-03c3-4a49-b22e-5909821fa2f9" name="Changes" comment="Collections - Queue, HashSet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listsExamples/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listsExamples/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listsExamples/LinkedListsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listsExamples/LinkedListsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listsExamples/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/setExamples/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/setExamples/SetExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -73,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689782571731</updated>
-      <workItem from="1689782573177" duration="13776000" />
+      <workItem from="1689782573177" duration="16743000" />
     </task>
     <task id="LOCAL-00001" summary="Collections - Lists">
       <created>1689783343943</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689791470035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Collections - Queue, HashSet">
+      <created>1689960923680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689960923681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
     <MESSAGE value="Collections - Lists" />
     <MESSAGE value="Collections - Lists - added sort method" />
     <MESSAGE value="Collections - Linked lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections - Linked lists" />
+    <MESSAGE value="Collections - Queue, HashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections - Queue, HashSet" />
   </component>
 </project>

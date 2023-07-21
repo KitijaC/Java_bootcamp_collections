@@ -35,5 +35,8 @@ public class Main {
         SetExample setExample = new SetExample();
         setExample.exampleHashSetWithString();
 
+        System.out.println("=== Example HashSet with Object ===");
+        setExample.exampleHashSetWithObject();
+
     }
 }

@@ -1,5 +1,7 @@
 package setExamples;
 
+import model.Student;
+
 import java.util.HashSet;
 
 public class SetExample {
@@ -38,4 +40,35 @@ public class SetExample {
             System.out.println(studentName);
         }
     }
+
+    public void exampleHashSetWithObject(){
+        HashSet<Student> students = new HashSet<>();
+
+        students.add(new Student("Zino", 9));
+        students.add(new Student("James", 12));
+        students.add(new Student("Mary", 7));
+        students.add(new Student("Elina", 15));
+        students.add(new Student("Sam", 19));
+        students.add(new Student("Julia", 10));
+        students.add(new Student("Zino", 9));
+        students.add(new Student("Mary", 7));
+
+        System.out.println(students);
+
+        for(Student student: students) {
+            System.out.println(student.getName());
+            this.doSomethingMore(student);
+
+            try {
+                this.doSomethingWithException();
+            } catch (Exception ex) {
+                System.out.println(ex);
+            }
+        }
+    }
+
+    private void doSomethingWithException() throws Exception {
+    }
+
+    private void doSomethingMore(Student student) {}
 }
