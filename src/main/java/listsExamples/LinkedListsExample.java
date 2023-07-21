@@ -1,5 +1,7 @@
 package listsExamples;
 
+import model.Product;
+
 import java.util.LinkedList;
 
 public class LinkedListsExample {

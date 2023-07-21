@@ -1,4 +1,4 @@
-package listsExamples;
+package model;
 
 public class Product {
 
