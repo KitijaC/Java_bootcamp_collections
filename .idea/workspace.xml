@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfedb961-03c3-4a49-b22e-5909821fa2f9" name="Changes" comment="Collections - Queue, HashSet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+    <list default="true" id="dfedb961-03c3-4a49-b22e-5909821fa2f9" name="Changes" comment="Collections - HashSet object example added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapExample/MapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/setExamples/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/setExamples/SetExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689782571731</updated>
-      <workItem from="1689782573177" duration="16743000" />
+      <workItem from="1689782573177" duration="24897000" />
     </task>
     <task id="LOCAL-00001" summary="Collections - Lists">
       <created>1689783343943</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689960923681</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Collections - HashSet object example added">
+      <created>1689963875816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689963875817</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="Collections - Lists - added sort method" />
     <MESSAGE value="Collections - Linked lists" />
     <MESSAGE value="Collections - Queue, HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections - Queue, HashSet" />
+    <MESSAGE value="Collections - HashSet object example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections - HashSet object example added" />
   </component>
 </project>

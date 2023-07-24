@@ -1,15 +1,26 @@
 package model;
 
 import java.util.Objects;
+import java.util.UUID;
 
-public class Student {
+public class Student implements Comparable {
 
+    private UUID id;
     private String name;
     private int grade;
 
     public Student(String name, int grade) {
+        this.id = UUID.randomUUID();
         this.name = name;
         this.grade = grade;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -30,7 +41,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "name='" + name +
+        return "name=" + name +
                 ", grade=" + grade;
     }
 
@@ -45,6 +56,14 @@ public class Student {
         boolean result = Objects.equals(name, student.getName()) && Objects.equals(this.grade, student.getGrade());
 
         return result;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Student student = (Student) o;
+        if (this.grade > student.getGrade()) return 1;
+        if (this.grade < student.getGrade()) return -1;
+        return 0;
     }
 
     public int hashCode() {return Objects.hash(name, grade);} // if only one item - hashCode(name)

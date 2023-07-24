@@ -1,10 +1,13 @@
 import listsExamples.ArrayListExample;
 import listsExamples.LinkedListsExample;
+import mapExample.MapExample;
 import queueExample.DequeueExample;
 import queueExample.QueueExample;
 import setExamples.SetExample;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,5 +41,17 @@ public class Main {
         System.out.println("=== Example HashSet with Object ===");
         setExample.exampleHashSetWithObject();
 
+        System.out.println("=== Example LinkedHashSet with String ===");
+        setExample.exampleLinkedHashSet();
+
+        System.out.println("=== Example TreeSet ===");
+        setExample.exampleTreesSet();
+
+        System.out.println("=== Example HashMap ===");
+        MapExample mapExample = new MapExample();
+        mapExample.firstExampleHashMap();
+
+        System.out.println("=== Second example HashMap ===");
+        mapExample.secondExampleHashMap();
     }
 }
